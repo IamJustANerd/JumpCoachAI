@@ -3,7 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'profile.dart';
 import 'error_page.dart';
-import 'calibration_page.dart'; // <--- 1. Import the Calibration Page
+import 'calibration_page.dart';
+import 'history.dart'; // <--- 1. Import History Page
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});
@@ -14,6 +15,7 @@ class DashboardPage extends StatefulWidget {
 
 class _DashboardPageState extends State<DashboardPage> {
   String _username = "User";
+  String _bestAttempt = "--"; // Default placeholder
   final User? user = FirebaseAuth.instance.currentUser;
 
   @override
@@ -31,11 +33,23 @@ class _DashboardPageState extends State<DashboardPage> {
             .get();
 
         if (doc.exists && doc.data() != null) {
+          Map<String, dynamic> data = doc.data() as Map<String, dynamic>;
+
           setState(() {
-            _username = doc['username'] ?? "User";
+            _username = data['username'] ?? "User";
+
+            // 2. Fetch Best Jump Height
+            if (data['bestJumpHeight'] != null) {
+              double best = (data['bestJumpHeight'] as num).toDouble();
+              // Convert to meters string or keep as double
+              _bestAttempt = "${best.toStringAsFixed(2)}m";
+            } else {
+              _bestAttempt = "0.00m";
+            }
           });
         }
       } catch (e) {
+        print("Error fetching data: $e");
         if (user!.email != null) {
           setState(() {
             _username = user!.email!.split('@')[0];
@@ -58,12 +72,10 @@ class _DashboardPageState extends State<DashboardPage> {
       if (doc.exists) {
         Map<String, dynamic> data = doc.data() as Map<String, dynamic>;
 
-        // Check if weight or height is missing
         bool hasWeight = data.containsKey('weight') && data['weight'] != null;
         bool hasHeight = data.containsKey('height') && data['height'] != null;
 
         if (!hasWeight || !hasHeight) {
-          // MISSING DATA -> Show Error Page
           if (mounted) {
             Navigator.push(
               context,
@@ -71,11 +83,10 @@ class _DashboardPageState extends State<DashboardPage> {
             );
           }
         } else {
-          // DATA EXISTS -> Navigate to Calibration Page
           if (mounted) {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const CalibrationPage()), // <--- 2. Navigate here
+              MaterialPageRoute(builder: (context) => const CalibrationPage()),
             );
           }
         }
@@ -143,24 +154,24 @@ class _DashboardPageState extends State<DashboardPage> {
                     ),
                   ),
 
-                  // --- Bottom "Last Attempt" Section ---
+                  // --- Bottom "Best Attempt" Section ---
                   Column(
-                    children: const [
-                      Text(
-                        "Last Attempt",
+                    children: [
+                      const Text(
+                        "Best Attempt", // <--- Updated Text
                         style: TextStyle(color: Colors.white54, fontSize: 16),
                       ),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       Text(
-                        "100cm",
-                        style: TextStyle(
+                        _bestAttempt, // <--- Dynamic Variable
+                        style: const TextStyle(
                           fontFamily: 'LexendMega',
                           color: Colors.white,
                           fontSize: 48,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Height",
                         style: TextStyle(
                           color: Color(0xFF00FFFF),
@@ -195,7 +206,13 @@ class _DashboardPageState extends State<DashboardPage> {
                       size: 28,
                     ),
                     onPressed: () {
-                      /* Navigate History */
+                      // 3. Navigate to History Page
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const HistoryPage(),
+                        ),
+                      );
                     },
                   ),
                   IconButton(
@@ -205,6 +222,7 @@ class _DashboardPageState extends State<DashboardPage> {
                       size: 36,
                     ),
                     onPressed: () {
+                      // Reload Page (effectively a refresh)
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(

@@ -2,8 +2,12 @@ class UserModel {
   final String uid;
   final String email;
   final String username;
-  final double? weight; // <--- NEW
-  final double? height; // <--- NEW
+  final double? weight;
+  final double? height;
+
+  // --- NEW FIELDS ---
+  final double? bestJumpHeight;
+  final List<double>? history;
 
   UserModel({
     required this.uid,
@@ -11,6 +15,8 @@ class UserModel {
     required this.username,
     this.weight,
     this.height,
+    this.bestJumpHeight,
+    this.history,
   });
 
   Map<String, dynamic> toMap() {
@@ -18,8 +24,10 @@ class UserModel {
       'uid': uid,
       'email': email,
       'username': username,
-      'weight': weight, // <--- NEW
-      'height': height, // <--- NEW
+      'weight': weight,
+      'height': height,
+      'bestJumpHeight': bestJumpHeight, // <--- NEW
+      'history': history, // <--- NEW
       'createdAt': DateTime.now(),
     };
   }
@@ -29,9 +37,15 @@ class UserModel {
       uid: map['uid'] ?? '',
       email: map['email'] ?? '',
       username: map['username'] ?? '',
-      // We parse as double/num to be safe
       weight: (map['weight'] as num?)?.toDouble(),
       height: (map['height'] as num?)?.toDouble(),
+
+      // --- NEW: Safe parsing ---
+      bestJumpHeight: (map['bestJumpHeight'] as num?)?.toDouble(),
+      // Check if history exists, if so map every item to double
+      history: (map['history'] as List<dynamic>?)
+          ?.map((e) => (e as num).toDouble())
+          .toList(),
     );
   }
 }
