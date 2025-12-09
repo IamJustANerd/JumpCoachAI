@@ -144,7 +144,7 @@ Berikut adalah beberapa tampilan dari aplikasi Jump Coach AI:
 
 | Halaman Login | Halaman Utama/Profile |
 | :---: | :---: |
-| ! (readme_img/1.png) | ! (readme_img/2.png) |
+| ! (https://github.com/IamJustANerd/JumpCoachAI/readme_img/1.png) | ! ((https://github.com/IamJustANerd/JumpCoachAI/readme_img/2.png)) |
 | *[Tambahkan gambar lain sesuai kebutuhan]* | |
 
 ---
