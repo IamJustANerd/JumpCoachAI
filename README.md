@@ -1,10 +1,10 @@
-# 🚀 Jump Coach AI: Pelatih Lompatan Berbasis Kecerdasan Buatan
+# Jump Coach AI: Pelatih Lompatan Berbasis Kecerdasan Buatan
 
 Jump Coach AI adalah aplikasi seluler inovatif yang dirancang untuk **menilai kualitas dan performa lompatan pengguna** menggunakan model Kecerdasan Buatan (AI) canggih. Aplikasi ini bertujuan menyediakan pelatihan lompatan yang dapat diakses **kapan saja dan di mana saja**, hanya dengan melakukan input kondisi fisik awal dan kalibrasi sederhana.
 
 ---
 
-## ✨ Fitur Utama Aplikasi
+## Fitur Utama Aplikasi
 
 Aplikasi Jump Coach AI dilengkapi dengan serangkaian fitur untuk mendukung latihan dan pemantauan performa pengguna:
 
@@ -16,7 +16,7 @@ Aplikasi Jump Coach AI dilengkapi dengan serangkaian fitur untuk mendukung latih
 
 ---
 
-## 🛠️ Detail Teknis dan Arsitektur
+## Detail Teknis dan Arsitektur
 
 ### Teknologi yang Digunakan
 
@@ -35,7 +35,7 @@ Aplikasi Jump Coach AI dilengkapi dengan serangkaian fitur untuk mendukung latih
 
 ---
 
-## 📝 Panduan Penggunaan dan Instalasi
+## Panduan Penggunaan dan Instalasi
 
 Untuk menjalankan aplikasi ini, Anda perlu memastikan koneksi antara perangkat seluler dan server *backend* (laptop/komputer) berfungsi dengan baik dalam jaringan yang sama.
 
@@ -66,18 +66,18 @@ Setelah aplikasi terbuka di perangkat seluler, Anda dapat mencabut kabel data da
 
 ---
 
-## 🖼️ Tampilan Aplikasi (Snapshot)
+## Tampilan Aplikasi (Snapshot)
 
 Berikut adalah beberapa tampilan dari aplikasi Jump Coach AI:
 
 | Halaman Login | Halaman Utama/Profile |
 | :---: | :---: |
 | ! (readme_img/1.png) | ! (readme_img/2.png) |
-| *[Tambahkan gambar lain sesuai kebutuhan]* | |
+| ... | |
 
 ---
 
-## 📹 Video Demo
+## Video Demo
 
 Video demonstrasi fungsionalitas aplikasi dapat dilihat melalui tautan berikut:
 \[gdrive...]
