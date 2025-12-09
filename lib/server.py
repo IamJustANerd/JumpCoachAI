@@ -6,7 +6,7 @@ import onnxruntime as ort
 # ================================
 # CONFIG - GEMINI API
 # ================================
-GOOGLE_API_KEY = "AIzaSyChFThwJI3079pGTxamCMVFCuCyHd9qWLU" 
+GOOGLE_API_KEY = "AIzaSyD192VqbhBJPtOr7tx9p3viSA9hRCil0Wo" 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # ================================

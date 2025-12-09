@@ -191,3 +191,6 @@ class _ProfilePageState extends State<ProfilePage> {
     );
   }
 }
+
+// buat laporan secara lengkap
+// cara hitung, flow, gambar2, diagram architecture, apapun yang dipakai, video demo
