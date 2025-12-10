@@ -70,13 +70,13 @@ Setelah aplikasi terbuka di perangkat seluler, Anda dapat mencabut kabel data da
 
 Berikut adalah beberapa tampilan dari aplikasi Jump Coach AI:
 
-# 🚀 Jump Coach AI: Pelatih Lompatan Berbasis Kecerdasan Buatan
+# Jump Coach AI: Pelatih Lompatan Berbasis Kecerdasan Buatan
 
 Jump Coach AI adalah aplikasi seluler inovatif yang dirancang untuk **menilai kualitas dan performa lompatan pengguna** menggunakan model Kecerdasan Buatan (AI) canggih. Aplikasi ini bertujuan menyediakan pelatihan lompatan yang dapat diakses **kapan saja dan di mana saja**, hanya dengan melakukan input kondisi fisik awal dan kalibrasi sederhana.
 
 ---
 
-## ✨ Fitur Utama Aplikasi
+## Fitur Utama Aplikasi
 
 Aplikasi Jump Coach AI dilengkapi dengan serangkaian fitur untuk mendukung latihan dan pemantauan performa pengguna:
 
@@ -88,7 +88,7 @@ Aplikasi Jump Coach AI dilengkapi dengan serangkaian fitur untuk mendukung latih
 
 ---
 
-## 🛠️ Detail Teknis dan Arsitektur
+## Detail Teknis dan Arsitektur
 
 ### Teknologi yang Digunakan
 
@@ -107,7 +107,7 @@ Aplikasi Jump Coach AI dilengkapi dengan serangkaian fitur untuk mendukung latih
 
 ---
 
-## 📝 Panduan Penggunaan dan Instalasi
+## Panduan Penggunaan dan Instalasi
 
 Untuk menjalankan aplikasi ini, Anda perlu memastikan koneksi antara perangkat seluler dan server *backend* (laptop/komputer) berfungsi dengan baik dalam jaringan yang sama.
 
@@ -138,21 +138,35 @@ Setelah aplikasi terbuka di perangkat seluler, Anda dapat mencabut kabel data da
 
 ---
 
-## 🖼️ Tampilan Aplikasi (Snapshot)
+## Tampilan Aplikasi (Snapshot)
 
 Berikut adalah beberapa tampilan dari aplikasi Jump Coach AI:
 
-| Halaman Login | Halaman Utama/Profile |
+| Splash Screen 1 | Splash Screen 2 |
 | :---: | :---: |
 | ![Splash Screen 1](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/1.png?raw=true) | ![Splash Screen 2](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/2.png?raw=true) |
+| Welcome Screen | Login |
+| :---: | :---: |
+| ![Welcome Screen](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/3.png?raw=true) | ![Login](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/4.png?raw=true) |
+| Profile | Dashboard |
+| :---: | :---: |
+| ![Profile](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/5.png?raw=true) | ![Dashboard](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/6.jpg?raw=true) |
+| Register | Calibration |
+| :---: | :---: |
+| ![Register](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/7.png?raw=true) | ![Calibration](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/8.png?raw=true) |
+| History | Jump |
+| :---: | :---: |
+| ![History](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/9.jpg?raw=true) | ![Jump](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/10.jpg?raw=true) |
+| Jump 2 | Jump 3 |
+| :---: | :---: |
+| ![Jump 2](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/11.jpg?raw=true) | ![Jump 3](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/12.jpg?raw=true) |
 | *[Tambahkan gambar lain sesuai kebutuhan]* | |
 ---
 
 ## 📹 Video Demo
 
 Video demonstrasi fungsionalitas aplikasi dapat dilihat melalui tautan berikut:
-\[gdrive...]
-| ... | |
+\[https://drive.google.com/file/d/1lvwDak4slmlgJEIvEP-5uhHFPT09S2pI/view]
 
 ---
 
