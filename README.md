@@ -166,11 +166,4 @@ Berikut adalah beberapa tampilan dari aplikasi Jump Coach AI:
 ## 📹 Video Demo
 
 Video demonstrasi fungsionalitas aplikasi dapat dilihat melalui tautan berikut:
-\[https://drive.google.com/file/d/1lvwDak4slmlgJEIvEP-5uhHFPT09S2pI/view]
-
----
-
-## Video Demo
-
-Video demonstrasi fungsionalitas aplikasi dapat dilihat melalui tautan berikut:
-\[gdrive...]
+\https://drive.google.com/file/d/1lvwDak4slmlgJEIvEP-5uhHFPT09S2pI/view
