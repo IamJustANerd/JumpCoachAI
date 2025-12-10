@@ -153,7 +153,7 @@ Berikut adalah beberapa tampilan dari aplikasi Jump Coach AI:
 | ![Profile](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/5.png?raw=true) | ![Dashboard](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/6.jpg?raw=true) |
 | Register | Calibration |
 | :---: | :---: |
-| ![Register](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/7.png?raw=true) | ![Calibration](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/8.png?raw=true) |
+| ![Register](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/7.jpg?raw=true) | ![Calibration](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/8.jpg?raw=true) |
 | History | Jump |
 | :---: | :---: |
 | ![History](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/9.jpg?raw=true) | ![Jump](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/10.jpg?raw=true) |
