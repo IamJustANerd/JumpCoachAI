@@ -143,17 +143,24 @@ Setelah aplikasi terbuka di perangkat seluler, Anda dapat mencabut kabel data da
 Berikut adalah beberapa tampilan dari aplikasi Jump Coach AI:
 
 | Splash Screen 1 | Splash Screen 2 |
+| :---: | :---: |
 | ![Splash Screen 1](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/1.png?raw=true) | ![Splash Screen 2](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/2.png?raw=true) |
 | Welcome Screen | Login |
+| :---: | :---: |
 | ![Welcome Screen](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/3.png?raw=true) | ![Login](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/4.png?raw=true) |
 | Profile | Dashboard |
+| :---: | :---: |
 | ![Profile](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/5.png?raw=true) | ![Dashboard](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/6.jpg?raw=true) |
 | Register | Calibration |
+| :---: | :---: |
 | ![Register](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/7.jpg?raw=true) | ![Calibration](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/8.jpg?raw=true) |
 | History | Jump |
+| :---: | :---: |
 | ![History](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/9.jpg?raw=true) | ![Jump](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/10.jpg?raw=true) |
 | Jump 2 | Jump 3 |
+| :---: | :---: |
 | ![Jump 2](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/11.jpg?raw=true) | ![Jump 3](https://github.com/IamJustANerd/JumpCoachAI/blob/main/readme_img/12.jpg?raw=true) |
+| *[Tambahkan gambar lain sesuai kebutuhan]* | |
 ---
 
 ## 📹 Video Demo
